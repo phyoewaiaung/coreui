@@ -1,0 +1,122 @@
+// Here you can add other styles
+*{
+    font-family: Helvetica;
+}
+.button{
+    background-color: rgb(77, 158, 185);
+    border: none;
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.button:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.searchStyle{
+    display: flex;
+}
+.searchBtn{
+    border: none;
+    background-color: rgb(77, 158, 185);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.searchBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+
+li{
+    list-style-type: none;
+}
+.detailStyle{
+    display: flex;
+    flex-direction: column;
+}
+.wholePageBg{
+    background-color: rgb(240, 255, 174);
+    font-family: Helvetica;
+}
+.resetBtn{
+    border: none;
+    background-color: rgb(77, 158, 185);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+
+}
+.resetBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.StudentFormStyle{
+    display: flex;
+    justify-content: space-around;
+}
+.StudentAddBtn{
+    border: none;
+    background-color: rgb(39, 98, 152);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    color: #fff;
+}
+.StudentAddBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}
+.StudentTableFormStyle{
+    background-color: rgb(252, 232, 215);
+}
+.detailBtn{
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
+    cursor: pointer;
+}
+.detailBtn:hover{
+    top: -10px;
+}
+.resetClickBtn{
+    border: none;
+    background-color: rgb(39, 98, 152);
+    border-radius: 0.2em;
+    width: 90px;
+    height: 40px;
+    color: #000;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    color: #fff;
+}
+.resetClickBtn:hover{
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px green;
+    top: -10px;
+    font-size: 1.2em;
+}

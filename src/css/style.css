@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-register{
+    height: 300px;
+}
+.user-profile{
+    height: 300px;
+    line-height: 2.5;
+}
+.plusBtn{
+cursor: pointer;
+border: none;
+background-color: green;
+color: #fff;
+border-radius: 0.2em;
+font-size: 1em;
+width: 120px;
+height: 30px;
+}
+.center{
+    text-align: center;
+}
+.textStyle{
+    font-weight: bold;
+    font-size: 1em;
+}
+h1{
+    font-size: 3em ;
+}

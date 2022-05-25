@@ -1,0 +1,16 @@
+*{
+    font-family: Helvetica;
+}
+.textBox{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+.equalBtn{
+    margin-left: 30px;
+    border: 0;
+    width: 50px;
+}
+.marginbot{
+    margin-bottom: 20px;
+}
